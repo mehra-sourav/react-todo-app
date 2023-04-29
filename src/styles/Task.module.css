@@ -1,0 +1,22 @@
+.task {
+  padding: 10px;
+  color: gray;
+}
+
+/* Text color changes only for tasks which are not marked complete */
+.task:hover:not(.task-complete) {
+  color: black;
+  background-color: rgb(252, 252, 252);
+}
+
+.task-complete {
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none;
+}
+
+svg:hover {
+  stroke: #ff707f;
+}

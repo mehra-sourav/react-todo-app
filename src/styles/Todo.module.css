@@ -1,0 +1,32 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  width: 40vh;
+  height: 55vh;
+  box-shadow: 3px 10px 36px -15px rgba(0, 0, 0, 0.51);
+}
+
+.task-list {
+  overflow-y: auto;
+  height: 80%;
+  text-align: center;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #bdbbbb;
+}
