@@ -40,14 +40,14 @@ function Todo() {
 
   // Handler for deleting task
   const deleteTask = (taskId) => {
-    let localTasks = tasks.filter((t) => t.id != taskId);
+    let localTasks = tasks.filter((t) => t.id !== taskId);
     setTasks(localTasks);
   };
 
   // Handler for toggling task as complete or incomplete
   const toggleTaskComplete = (taskId) => {
     let localTasks = [...tasks];
-    let toggledTaskIdx = localTasks.findIndex((t) => t.id == taskId);
+    let toggledTaskIdx = localTasks.findIndex((t) => t.id === taskId);
 
     if (toggledTaskIdx > -1) {
       localTasks[toggledTaskIdx] = {
