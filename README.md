@@ -2,9 +2,9 @@
 
 React todo App
 
----
-
 ## [](#demo-link)Demo link:
+
+---
 
 Access my site 👉 [here](https://react-todo-app-sourav.netlify.app/)
 
@@ -63,7 +63,7 @@ The project is complete
 
 ---
 
-List of contriubutors:
+List of contributors:
 
 - [Sourav Mehra](https://github.com/mehra-sourav)
 - [Flowbite](https://flowbite.com/docs/components/)
