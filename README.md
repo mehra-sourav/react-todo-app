@@ -32,7 +32,7 @@ for writing down tasks that one needs to complete
 
 ---
 
-![The todo app](public\todo-app.png)
+![The todo app](./public/todo-app.png)
 
 ## [](#technologies)Technologies
 
